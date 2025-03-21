@@ -1,0 +1,23 @@
+.menu{
+    border:1px solid; #0000ff;
+    background-color: #333;
+    display: flex;
+    list-style: none;
+}
+
+.item-menu{
+    padding-top:  10px;
+    padding-bottom: 10px;
+    transition: opacity 1s;
+}
+.item-menu:hover{
+   /* opacity: 0.7; */
+   background-color: #cccccc;
+}
+.link-item-menu{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    padding:  0px 40px;
+    
+}
